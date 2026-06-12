@@ -6,13 +6,13 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model = joblib.load(os.path.join(BASE_DIR, 'knn_heart.pkl'))
-scalar = joblib.load(os.path.join(BASE_DIR, 'scaler.pkl'))
+scaler = joblib.load(os.path.join(BASE_DIR, 'scaler.pkl'))
 expected_columns = joblib.load(os.path.join(BASE_DIR, 'columns.pkl'))
 
 st.title("Heart Disease")
 st.markdown("provide the following details")
 
-age = st.slider("Age", 18, 100, 40)
+age  = st.slider("Age", 18, 100, 40)
 sex = st.selectbox("Sex", ["M", "F"])
 chest_pain = st.selectbox("Chest Pain Type", ["ATA", "NAP", "TA", "ASY"])
 resting_bp = st.number_input("Resting Blood Pressure (mm Hg)", 80, 200, 120)
