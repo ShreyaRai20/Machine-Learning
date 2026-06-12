@@ -28,3 +28,5 @@ pip3 install numpy pandas seaborn matplotlib scikit-learn scipy scikit-learn
 pip3 freeze > requirements.txt
 
 pip3 install -r requirements.txt
+
+streamlit run app.py
