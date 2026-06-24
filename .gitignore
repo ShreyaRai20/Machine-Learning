@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE Files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Model Files
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+
+# TensorFlow Checkpoints
+checkpoint
+*.index
+*.data-*
+
+# Training Outputs
+runs/
+logs/
+tensorboard_logs/
+wandb/
+
+# Dataset Files
+data/
+datasets/
+
+# Generated Results
+outputs/
+predictions/
+results/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Build Files
+build/
+dist/
+*.egg-info/

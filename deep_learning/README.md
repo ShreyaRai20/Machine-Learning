@@ -30,5 +30,3 @@ pip3 freeze > requirements.txt
 pip3 install -r requirements.txt
 
 streamlit run app.py
-
-pip3 install seaborn matplotlib
