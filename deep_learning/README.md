@@ -23,7 +23,7 @@ echo $VIRTUAL_ENV
 
 # install required libraries
 
-pip3 install numpy pandas seaborn matplotlib scikit-learn scipy scikit-learn
+pip3 install numpy pandas seaborn matplotlib scikit-learn scipy scikit-learn tensorflow
 
 pip3 freeze > requirements.txt
 
